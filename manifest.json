@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Start Tab",
+    "version": "1.2",
+    "description": "New Start Tab for crypto humans.",
+    "author": "Smoking Area",
+    "offline_enabled": true,
+    "permissions" : [
+        "bookmarks",
+        "favicon",
+        "activeTab"
+    ],
+    "chrome_url_overrides" : {
+        "newtab": "index.html"
+    },
+    "background" : {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "16": "icon16x16.033d15ed.png",
+        "32": "icon32x32.774921cc.png",
+        "48": "icon48x48.0a81788e.png",
+        "64": "icon64x64.4889d669.png",
+        "128": "icon128x128.7dcca1a6.png"
+    }
+}
